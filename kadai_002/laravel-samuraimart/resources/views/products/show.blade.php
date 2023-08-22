@@ -16,8 +16,9 @@
           <h1 class="">
             {{$product->name}}
           </h1>
+          <div class="mr-0 d-flex">
           <span class="star-rating" data-rate="{{ round($product->reviews->avg('score')*2)/2 }}"></span>
-          <span>{{ $product->reviews()->count() }}</span>
+          <span class="mx-1">{{ $product->reviews()->count() }}</span></div>
           <p class="">
             {{$product->description}}
           </p>
