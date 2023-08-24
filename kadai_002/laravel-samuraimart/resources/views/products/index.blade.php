@@ -17,7 +17,7 @@
         Sort By
         @sortablelink('id', 'ID')
         @sortablelink('price', 'Price')
-        @sortablelink('starrate', '評価順')
+        @sortablelink('starrate', 'Review')
       </div>
       <div class="container mt-4">
         <div class="row  w-100">
